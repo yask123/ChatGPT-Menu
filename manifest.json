@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "ChatGPT Menu",
+    "version": "1.0",
+    "permissions": ["contextMenus", "activeTab", "identity", "storage", "scripting"],
+    "host_permissions": [
+      "http://*/*",
+      "https://*/*",
+      "https://api.openai.com/*"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    }
+  }
